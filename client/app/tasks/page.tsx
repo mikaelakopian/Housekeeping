@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, ChangeEvent } from "react";
 import { Button } from "@heroui/react";
 import {
   Table,
@@ -25,9 +25,21 @@ import api from "../../services/api";
 
 import { title } from "@/components/primitives";
 
+interface Task {
+  room: string;
+  price: number;
+  description: string;
+}
+
+interface NewTask {
+  room: string;
+  price: number | string;
+  description: string;
+}
+
 export default function TasksPage() {
-  const [tasks, setTasks] = useState([]);
-  const [newTask, setNewTask] = useState({
+  const [tasks, setTasks] = useState<Task[]>([]);
+  const [newTask, setNewTask] = useState<NewTask>({
     room: "",
     price: 0,
     description: "",
@@ -56,7 +68,10 @@ export default function TasksPage() {
     if (!newTask.room.trim()) return;
 
     try {
-      await api.tasks.addTask(newTask);
+      await api.tasks.addTask({
+        ...newTask,
+        price: typeof newTask.price === 'string' ? Number(newTask.price) : newTask.price
+      });
       setNewTask({ room: "", price: 0, description: "" });
       onClose();
       fetchTasks();
@@ -65,16 +80,16 @@ export default function TasksPage() {
     }
   };
 
-  const handleDeleteTask = async (room) => {
+  const handleDeleteTask = async (room: string) => {
     try {
-      await api.tasks.deleteTask(room);
+      await api.tasks.deleteTask(Number(room));
       fetchTasks();
     } catch (error) {
       console.error("Error deleting task:", error);
     }
   };
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
 
     setNewTask((prev) => ({
@@ -143,7 +158,7 @@ export default function TasksPage() {
                 name="price"
                 placeholder="Enter price"
                 type="number"
-                value={newTask.price}
+                value={String(newTask.price)}
                 onChange={handleInputChange}
               />
               <Textarea
