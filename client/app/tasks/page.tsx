@@ -70,7 +70,10 @@ export default function TasksPage() {
     try {
       await api.tasks.addTask({
         ...newTask,
-        price: typeof newTask.price === 'string' ? Number(newTask.price) : newTask.price
+        price:
+          typeof newTask.price === "string"
+            ? Number(newTask.price)
+            : newTask.price,
       });
       setNewTask({ room: "", price: 0, description: "" });
       onClose();
@@ -89,7 +92,9 @@ export default function TasksPage() {
     }
   };
 
-  const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value } = e.target;
 
     setNewTask((prev) => ({
