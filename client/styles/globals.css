@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Глобальные стили для HeroUI компонентов */
+@layer components {
+  /* Селекторы для компонентов Select и Popover */
+  [data-slot="popover"],
+  [data-slot="popover-content"],
+  [data-slot="listbox"],
+  [data-slot="listbox-section"],
+  [data-slot="listbox-item"],
+  [data-slot="select"] {
+    font-family: var(--font-sans) !important;
+  }
+  
+  /* Стили для Select внутри таблицы */
+  td .heroui-select,
+  td [data-slot="select"],
+  td [data-slot="listbox-item"] {
+    font-family: var(--font-sans) !important;
+    font-size: 14px !important;
+  }
+  
+  /* Стили для выпадающего списка */
+  .heroui-popover,
+  .heroui-popover-content,
+  .heroui-select-popover,
+  .heroui-listbox,
+  .heroui-listbox-item {
+    font-family: var(--font-sans) !important;
+    font-size: 14px !important;
+  }
+}
+
+/* Стили для элементов выпадающего списка */
+.HeroUI-SelectItem,
+.HeroUI-ListboxItem {
+  font-family: var(--font-sans) !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+}

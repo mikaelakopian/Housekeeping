@@ -1,0 +1,437 @@
+{
+    "tasks": [
+      {
+        "room": 29,
+        "type": "V",
+        "note": "дополнительная кровать",
+        "hotelside": "west",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 5
+      },
+      {
+        "room": 30,
+        "type": "V/N",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 5
+      },
+      {
+        "room": 31,
+        "type": "V",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 5
+      },
+      {
+        "room": 32,
+        "type": "B",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 5
+      },
+      {
+        "room": 33,
+        "type": "B",
+        "note": "установка детской кровати",
+        "hotelside": "west",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 5
+      },
+      {
+        "room": 34,
+        "type": "V",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 5
+      },
+      {
+        "room": 35,
+        "type": "V",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 5
+      },
+      {
+        "room": 36,
+        "type": "V",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 5
+      },
+      {
+        "room": 37,
+        "type": "V/N",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 5
+      },
+      {
+        "room": 38,
+        "type": "V/N",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 6
+      },
+      {
+        "room": 39,
+        "type": "V/N",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 6
+      },
+      {
+        "room": 40,
+        "type": "V/N",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 6
+      },
+      {
+        "room": 41,
+        "type": "V",
+        "note": "дополнительная кровать",
+        "hotelside": "west",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 6
+      },
+      {
+        "room": 42,
+        "type": "V",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 6
+      },
+      {
+        "room": 43,
+        "type": "V",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 6
+      },
+      {
+        "room": 44,
+        "type": "V",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 6
+      },
+      {
+        "room": 45,
+        "type": "V",
+        "note": "установка детской кровати",
+        "hotelside": "west",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 6
+      },
+      {
+        "room": 46,
+        "type": "V/N",
+        "note": "",
+        "hotelside": "west",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 6
+      },
+      {
+        "room": 1,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 4
+      },
+      {
+        "room": 2,
+        "type": "V/N",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 4
+      },
+      {
+        "room": 3,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 4
+      },
+      {
+        "room": 4,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 4
+      },
+      {
+        "room": 5,
+        "type": "B",
+        "note": "установка детской кровати",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 4
+      },
+      {
+        "room": 6,
+        "type": "B",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 1,
+        "corridor": 4
+      },
+      {
+        "room": 15,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 1
+      },
+      {
+        "room": 16,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 1
+      },
+      {
+        "room": 17,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 1
+      },
+      {
+        "room": 18,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 1
+      },
+      {
+        "room": 19,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 1
+      },
+      {
+        "room": 20,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 1
+      },
+      {
+        "room": 21,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 1
+      },
+      {
+        "room": 22,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 2,
+        "corridor": 1
+      },
+      {
+        "room": 101,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 2,
+        "corridor": 2
+      },
+      {
+        "room": 102,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 2,
+        "corridor": 2
+      },
+      {
+        "room": 103,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 2,
+        "corridor": 2
+      },
+      {
+        "room": 104,
+        "type": "V",
+        "note": "дополнительная кровать",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 2,
+        "corridor": 2
+      },
+      {
+        "room": 105,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 2,
+        "corridor": 2
+      },
+      {
+        "room": 106,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 2,
+        "corridor": 2
+      },
+      {
+        "room": 107,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 2,
+        "corridor": 2
+      },
+      {
+        "room": 108,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 2,
+        "corridor": 2
+      },
+      {
+        "room": 109,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": false,
+        "floor": 2,
+        "corridor": 2
+      },
+      {
+        "room": 201,
+        "type": "B",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 3,
+        "corridor": 3
+      },
+      {
+        "room": 202,
+        "type": "V",
+        "note": "установка детской кровати",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 3,
+        "corridor": 3
+      },
+      {
+        "room": 203,
+        "type": "B",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 3,
+        "corridor": 3
+      },
+      {
+        "room": 204,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 3,
+        "corridor": 3
+      },
+      {
+        "room": 205,
+        "type": "B",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 3,
+        "corridor": 3
+      },
+      {
+        "room": 206,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 3,
+        "corridor": 3
+      },
+      {
+        "room": 207,
+        "type": "V",
+        "note": "",
+        "hotelside": "east",
+        "hasstorage": true,
+        "floor": 3,
+        "corridor": 3
+      }
+    ]
+  }
+  
