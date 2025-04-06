@@ -1,20 +1,12 @@
 'use client';
 
-import { Link } from "@heroui/react";
-import { Button } from "@heroui/react";
-import { Card, CardBody, CardHeader, CardFooter, Badge, Chip } from "@heroui/react";
-import { Divider } from "@heroui/react";
-import { title, subtitle } from "@/components/primitives";
-import { useState, useEffect } from "react";
-import Image from "next/image";
-import api from "../services/api";
-import { Select, SelectItem } from "@heroui/react";
-import { Accordion, AccordionItem } from "@heroui/react";
-import dynamic from 'next/dynamic';
-import { Suspense } from 'react';
-import { useRouter } from 'next/navigation';
 import EmployeeAvatar from '@/components/EmployeeAvatar';
-import { format, addDays, isAfter, set } from 'date-fns'; // Import date-fns functions
+import { subtitle, title } from "@/components/primitives";
+import { Accordion, AccordionItem, Badge, Button, Card, Divider, Select, SelectItem } from "@heroui/react";
+import { addDays, format, isAfter, set } from 'date-fns'; // Import date-fns functions
+import Image from "next/image";
+import { useEffect, useState } from "react";
+import api from "../services/api";
 
 // Определение типов для данных
 interface Employee {
