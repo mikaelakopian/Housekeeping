@@ -22,10 +22,6 @@ export function Providers({ children }: ProvidersProps) {
   return (
     <HeroUIProvider
       navigate={router.push}
-      theme={{
-        className: "font-sans",
-        selector: "html",
-      }}
     >
       {children}
     </HeroUIProvider>
