@@ -26,8 +26,13 @@ import api from "../../services/api";
 
 import { title } from "@/components/primitives";
 
+interface Employee {
+  name: string;
+  istodayworking: boolean;
+}
+
 export default function EmployeesPage() {
-  const [employees, setEmployees] = useState([]);
+  const [employees, setEmployees] = useState<Employee[]>([]);
   const [newEmployee, setNewEmployee] = useState("");
   const [isLoading, setIsLoading] = useState(true);
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -49,7 +54,7 @@ export default function EmployeesPage() {
     }
   };
 
-  const handleToggleWorking = async (name) => {
+  const handleToggleWorking = async (name: string) => {
     try {
       await api.employees.toggleEmployeeWorking(name);
       fetchEmployees();
@@ -71,7 +76,7 @@ export default function EmployeesPage() {
     }
   };
 
-  const handleDeleteEmployee = async (name) => {
+  const handleDeleteEmployee = async (name: string) => {
     try {
       await api.employees.deleteEmployee(name);
       fetchEmployees();
